@@ -1,0 +1,24 @@
+{
+  "name": "ink",
+  "version": "1.0.0",
+  "description": "A minimalist, monochromatic theme",
+  "main": "none",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nonproftechie/ink.git"
+  },
+  "author": "Joshua Austin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nonproftechie/ink/issues"
+  },
+  "homepage": "https://github.com/nonproftechie/ink#readme"
+}

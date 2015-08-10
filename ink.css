@@ -38,7 +38,7 @@ article section {
   width: 66%;
   margin: 1.5rem 1.5rem 1.5rem 16.5%;
 }
-@media screen and (max-width: 764px) {
+@media only screen and (max-width: 479px) {
   article section {
     width: auto;
     margin: 1.75rem;
@@ -48,15 +48,12 @@ article section p {
   text-align: left;
   margin-bottom: 1rem;
 }
-@media screen and (max-width: 764px) {
+@media only screen and (max-width: 479px) {
   article section p {
     text-indent: 2rem;
     word-break: normal;
     margin-bottom: 0;
   }
-}
-article section p span.intro {
-  font-size: 2rem;
 }
 h1,
 h2,
@@ -68,10 +65,11 @@ a:link,
 a:visited {
   color: #333333;
   text-decoration: underline;
+  transition: color 0.3s;
 }
 a:hover {
   color: #42b4fd;
-  transition: 0.3s;
+  transition: color 0.3s;
 }
 code {
   font-family: 'Inconsolita', monospace;
